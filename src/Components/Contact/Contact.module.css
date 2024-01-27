@@ -1,0 +1,27 @@
+.listItem {
+  border: 2px solid black;
+  width: 300px;
+  border-radius: 4px;
+  margin: 3px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.itemCont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.par {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.btnCont {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  height: 25px;
+}

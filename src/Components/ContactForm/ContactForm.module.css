@@ -1,0 +1,28 @@
+.form {
+  border: 2px solid black;
+  width: 290px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+.formFiled {
+  border-radius: 4px;
+  outline: none;
+  border: 2px solid black;
+}
+.error {
+  color: red;
+}
+.btnGroup {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn {
+  width: 110px;
+}
